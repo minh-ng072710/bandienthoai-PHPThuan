@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^dien-thoai/$ main.php [L]
+RewriteRule ^gio-hang/$ main.php?p=giohang
+
+RewriteRule ^thanh-toan-1/$  main.php?p=thanhtoan1  [L]
+RewriteRule ^thanh-toan-2/$  main.php?p=thanhtoan2  [L]
+RewriteRule ^thanh-toan-3/$  main.php?p=thanhtoan3  [L]	
+RewriteRule ^thanh-toan-4/$  main.php?p=thanhtoan4  [L]
+
+	
